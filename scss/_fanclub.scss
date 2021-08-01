@@ -1,0 +1,37 @@
+/* -------------------------------------Fan Club------------------------------------------- */
+.club {
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+}
+.club__content h2{
+    padding-top: 120px;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 43px;
+    padding-bottom: 20px; 
+}
+.club__paragraph{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 80%;
+}
+.club__img img{
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+.club__img{
+    text-align: center;
+    padding: 40px;
+    object-fit: cover;
+}

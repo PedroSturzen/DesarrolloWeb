@@ -1,0 +1,77 @@
+$principal: #d0a772;
+$negro : black;
+/*---------------------INDEX --------------------------*/
+span{
+    font-weight: 700 !important;
+}
+.presentacion{
+    padding: 0;
+    text-align: center;
+    margin-top: 60px;
+}
+.presentacion__foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.presentacion__texto{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.presentacion__cta{
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.presentacion__cta:hover{
+    text-decoration: none;
+    color: $negro;
+    font-weight: 700;
+}
+        /* GRID */
+.about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.about__img{
+    text-align: center;
+}
+.about__picture{
+    max-width: 80%;
+}
+.about__paragraph{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 24px !important;
+
+}
+.about__subtitle{
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.about__texts{
+    text-align: center;
+    margin-left: 173px;
+    margin-right: 173px;
+}
+.pindex__img{
+    width: 690px;
+}
+
+/* Contacto arriba footer */
+.overflow-hidden h4{
+    font-weight: 600;
+}

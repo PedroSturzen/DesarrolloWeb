@@ -1,0 +1,31 @@
+$principal: #d0a772;
+$negro : black;
+/* -------------------------------------Sucursal------------------------------------------- */
+.sucursal{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    .sucursal__title h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        padding-top: 20px;
+        color: $negro;
+    }
+    .sucursal__paragraph {
+        padding-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: $negro;
+    }
+}
+
+.sucursal__iframe iframe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bodyMenu{
+    background: #EBE3D1  ;
+}
+
+/* -------------------------------------Cierre Sucursal------------------------------------------- */

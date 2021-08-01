@@ -1,0 +1,56 @@
+$principal: #d0a772;
+$negro : black;
+/* -------------------------------------Contacto------------------------------------------- */
+.contacto{
+    margin: 0 auto;
+    text-align: center;
+    h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        padding-top: 20px;
+        margin-bottom: 25px;
+        color: $negro;
+        }
+    input{
+        width: 300px;
+        text-align: center;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 6px;
+        border-color: $negro;
+        border-width: 1.6px;
+        } 
+    select{
+        height: 30px;
+        }
+    textarea{
+        text-align: center;
+        font-size: 16px;
+        border-radius: 6px;
+        border-width: 1.9px;
+        resize: none;
+        }
+}
+
+
+.reset input{
+margin: 50px;
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding-top: 20px;
+padding-bottom: 30px;
+border-radius: 40px;
+}
+.reset .contacto-form_input{
+padding-bottom: 40px;
+}
+.contacto-form_input{
+font-weight: 500;
+}
+.contacto-form_input:hover{
+color: $negro;
+font-weight: 600;
+}
+
+/* -------------------------------------Cierre Contacto------------------------------------------- */
