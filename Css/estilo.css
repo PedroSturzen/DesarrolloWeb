@@ -3052,6 +3052,9 @@ input[type="button"].btn-block {
   overflow: hidden;
   padding: 80px 0; }
 
+.logo {
+  margin: 0; }
+
 .subtitle {
   color: #000000;
   font-size: 2.5rem;
@@ -3135,7 +3138,6 @@ input[type="button"].btn-block {
 
 .hero__cta {
   display: inline-block;
-  background: #fff;
   padding: 20px 40px;
   color: #000000;
   border-radius: 40px;
@@ -3146,7 +3148,7 @@ input[type="button"].btn-block {
   text-align: right; }
 
 #navbarNav {
-  justify-content: center; }
+  justify-content: space-between; }
 
 .navbar {
   position: relative;
@@ -7553,6 +7555,9 @@ span {
   overflow: hidden;
   padding: 80px 0; }
 
+.logo {
+  margin: 0; }
+
 .subtitle {
   color: #000000;
   font-size: 2.5rem;
@@ -7636,7 +7641,6 @@ span {
 
 .hero__cta {
   display: inline-block;
-  background: #fff;
   padding: 20px 40px;
   color: #000000;
   border-radius: 40px;
@@ -7647,7 +7651,7 @@ span {
   text-align: right; }
 
 #navbarNav {
-  justify-content: center; }
+  justify-content: space-between; }
 
 /* -------------------------------------Contacto------------------------------------------- */
 .contacto {
@@ -7910,12 +7914,13 @@ span {
     padding-top: 30px; }
   .presentacion_texto {
     font-size: 17px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 40px; }
   .about__paragraph {
-    margin-bottom: 20px;
     line-height: 1.5;
     margin: 30px;
-    font-size: 17px; }
+    font-size: 17px;
+    margin-top: 0; }
   footer {
     width: 100vw; }
   .container-footer-all {
@@ -7933,29 +7938,31 @@ span {
     text-align: center; }
   footer .columna1 {
     text-align: center; }
-  footer .columna1 ul {
-    list-style-type: none; }
+    footer .columna1 ul {
+      list-style-type: none; }
   .contacto-textArea {
     width: 80%;
     resize: none; }
   .carousel-item img {
     height: 133vw; }
-  .about__img img {
-    max-width: 100%;
-    height: 190px;
-    margin-bottom: 0px !important; }
+  .about__img {
+    margin: 10px; }
+    .about__img img {
+      max-width: 100%;
+      height: 190px;
+      margin-bottom: 0px !important; }
   .about__paragraph {
     margin-top: 0 0 !important; }
   .variedad-menu ul {
     display: grid; }
-  .pindex__img {
-    width: 335px; }
-  .card__father {
-    margin-top: 110px;
-    max-width: 100%; }
+  .pindex {
+    margin-bottom: 0; }
   .pindex__img {
     width: 100%;
     height: 350px; }
+  .card__father {
+    margin-top: 110px;
+    max-width: 100%; }
   .pindex__column {
     width: 100%; }
   .variedad__menu ul {
@@ -7969,7 +7976,15 @@ span {
   .reset .contacto-form_input {
     margin: 17px; }
   .sucursal__iframe iframe {
-    width: 100%; } }
+    width: 100%; }
+  .presentacion__cta {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .horarios p {
+    font-weight: 300; }
+  /* Logo */
+  .logo {
+    display: tabl; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {

@@ -53,12 +53,14 @@
     .presentacion_texto{
         font-size: 17px;
         margin: 0 auto;
+        margin-bottom: 40px;
+        
     }
     .about__paragraph {
-        margin-bottom: 20px;
         line-height: 1.5;
         margin: 30px;
         font-size: 17px;
+        margin-top: 0;
     }
     footer{
         width: 100vw;
@@ -85,9 +87,9 @@
     }
     footer .columna1{
         text-align: center;
-    }
-    footer .columna1 ul{
-        list-style-type: none;
+        ul{
+            list-style-type: none;
+        }
     }
     .contacto-textArea{
         width: 80%;
@@ -96,10 +98,14 @@
     .carousel-item img{
         height: 133vw;
     }
-    .about__img img{
-        max-width: 100%;
-        height: 190px;
-        margin-bottom: 0px !important;
+
+    .about__img{
+        margin: 10px;
+        img{
+            max-width: 100%;
+            height: 190px;
+            margin-bottom: 0px !important;
+        }
     }
     .about__paragraph{
         margin-top: 0 0 !important;
@@ -107,16 +113,16 @@
     .variedad-menu ul{
         display: grid;
     }
-    .pindex__img{
-        width: 335px;
-    }
-    .card__father{
-        margin-top: 110px;
-        max-width: 100%;
+    .pindex{
+        margin-bottom: 0;
     }
     .pindex__img{
         width: 100%;
         height: 350px;
+    }
+    .card__father{
+        margin-top: 110px;
+        max-width: 100%;
     }
     .pindex__column{
         width: 100%;
@@ -137,6 +143,17 @@
     }
     .sucursal__iframe iframe{
         width: 100%;
+    }
+    .presentacion__cta{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .horarios p{
+        font-weight: 300;
+    }
+    /* Logo */
+    .logo{
+        display: tabl;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
