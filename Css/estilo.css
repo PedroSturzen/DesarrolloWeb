@@ -7859,7 +7859,8 @@ span {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     padding-top: 20px;
-    color: black; }
+    color: black;
+    padding-bottom: 25px; }
   .sucursal .sucursal__paragraph {
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
@@ -7872,6 +7873,14 @@ span {
 
 .bodyMenu {
   background: #EBE3D1; }
+
+.content-line_sucursal {
+  height: 2px;
+  width: 510px;
+  background: black;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 100%; }
 
 /* -------------------------------------Cierre Sucursal------------------------------------------- */
 /*--------------------------------------------MEDIA QUERYS---------------------------------- */

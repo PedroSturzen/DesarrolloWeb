@@ -10,6 +10,7 @@ $negro : black;
         font-size: 50px;
         padding-top: 20px;
         color: $negro;
+        padding-bottom: 25px;
     }
     .sucursal__paragraph {
         padding-top: 20px;
@@ -27,5 +28,12 @@ $negro : black;
 .bodyMenu{
     background: #EBE3D1  ;
 }
-
+.content-line_sucursal{
+    height: 2px;
+    width: 510px;
+    background: black;
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
 /* -------------------------------------Cierre Sucursal------------------------------------------- */
