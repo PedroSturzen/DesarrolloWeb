@@ -7534,6 +7534,9 @@ span {
     color: #fff;
     margin-right: 10px; }
 
+.f-social li a:hover {
+  color: #007bff; }
+
 .copyright {
   margin-top: 20px;
   position: relative;
@@ -7993,7 +7996,10 @@ span {
     font-weight: 300; }
   /* Logo */
   .logo {
-    display: tabl; } }
+    display: tabl; }
+  /* ----------------------------SUCURSAL---------------------------- */
+  .content-line_sucursal {
+    width: 290px; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {
