@@ -108,7 +108,7 @@
         }
     }
     .about__paragraph{
-        margin-top: 0 0 !important;
+        margin: 30px !important;
     }
     .variedad-menu ul{
         display: grid;
@@ -158,6 +158,10 @@
     /* ----------------------------SUCURSAL---------------------------- */
     .content-line_sucursal{
         width: 290px;
+    }
+    .about__paragraph {
+        margin-bottom: 0;
+        margin: 30px !important;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
