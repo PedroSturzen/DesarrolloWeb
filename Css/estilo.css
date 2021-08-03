@@ -7342,9 +7342,11 @@ a.text-principal:hover, a.text-principal:focus {
 
 /* Mis Archivos Scss */
 /*---------------------INDEX --------------------------*/
+/* Bold Contenido */
 span {
   font-weight: 700 !important; }
 
+/* Quienes Somos y happy hour */
 .presentacion {
   padding: 0;
   text-align: center;
@@ -7376,7 +7378,6 @@ span {
   color: black;
   font-weight: 700; }
 
-/* GRID */
 .about {
   min-height: 400px;
   display: grid;
@@ -7735,19 +7736,6 @@ span {
   height: 100%;
   opacity: 0.91; }
 
-.card__back {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  transform-style: preserve-3d; }
-
-.card__back {
-  transform: rotateY(180deg);
-  background: #F0E4D5; }
-
 .body__card_front {
   width: 100%;
   height: 100%;
@@ -7765,14 +7753,18 @@ span {
   padding: 5px;
   border-radius: 5px; }
 
-.bg {
+.card__back {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0);
-  border-radius: 20px; }
+  backface-visibility: hidden;
+  transform-style: preserve-3d; }
+
+.card__back {
+  transform: rotateY(180deg);
+  background: #F0E4D5; }
 
 .body__card_back {
   padding: 40px;
@@ -7785,7 +7777,20 @@ span {
 
 .body__card_back h1 {
   font-size: 31px;
-  font-weight: 500; }
+  font-weight: 700; }
+
+.back__menu {
+  width: 100%;
+  height: 110px; }
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 20px; }
 
 .title-menu {
   font-size: 50px;
@@ -7794,6 +7799,9 @@ span {
   color: black;
   text-align: center;
   font-family: 'Oswald', sans-serif; }
+
+.variedad__menu {
+  height: 90px; }
 
 .variedad__menu ul {
   display: flex;
@@ -7810,29 +7818,6 @@ span {
       font-size: 20px;
       font-weight: 600;
       background: #EAE5E0; }
-
-.back__menu {
-  width: 100%;
-  height: 110px; }
-
-.variedad__menu {
-  height: 90px; }
-
-.content-line {
-  height: 2px;
-  width: 300px;
-  background: black;
-  margin: auto;
-  margin-bottom: 40px;
-  max-width: 100%; }
-
-.title__menu2 {
-  font-size: 50px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-  color: #000000;
-  text-align: center;
-  font-family: 'Oswald', sans-serif; }
 
 .variedad__menu li a {
   margin: 30px;
@@ -7852,6 +7837,22 @@ span {
   padding-right: 50px;
   text-decoration: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
+
+.content-line {
+  height: 2px;
+  width: 300px;
+  background: black;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 100%; }
+
+.title__menu2 {
+  font-size: 50px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
 
 /* -------------------------------------Cierre Menu------------------------------------------- */
 /* -------------------------------------Sucursal------------------------------------------- */

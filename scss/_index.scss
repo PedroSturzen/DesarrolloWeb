@@ -1,10 +1,11 @@
 $principal: #d0a772;
 $negro : black;
 /*---------------------INDEX --------------------------*/
+/* Bold Contenido */
 span{
     font-weight: 700 !important;
 }
-
+/* Quienes Somos y happy hour */
 .presentacion{
     padding: 0;
     text-align: center;
@@ -36,7 +37,7 @@ span{
     color: $negro;
     font-weight: 700;
 }
-        /* GRID */
+
 .about{
     min-height: 400px;
     display: grid;
