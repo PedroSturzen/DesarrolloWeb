@@ -4,8 +4,6 @@
         p{
             font-size: 20px !important;
         }
-        outline: 1px solid;
-        color: red;
     }
     .nav{
         width: 100%;
@@ -125,6 +123,9 @@
     }
     .pindex__column{
         width: 100%;
+    }
+    .variedad-menu{
+        overflow-x:hidden;
     }
     .variedad__menu ul{
         width: 100%;
