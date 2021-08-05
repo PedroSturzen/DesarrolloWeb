@@ -7890,11 +7890,8 @@ span {
 /* -------------------------------------Cierre Sucursal------------------------------------------- */
 /*--------------------------------------------MEDIA QUERYS---------------------------------- */
 @media screen and (min-width: 0px) and (max-width: 576px) {
-  * {
-    outline: 1px solid;
-    color: red; }
-    * p {
-      font-size: 20px !important; }
+  * p {
+    font-size: 20px !important; }
   .nav {
     width: 100%;
     font-size: 13px;
