@@ -251,6 +251,13 @@
     .variedad-menu{
         justify-content: space-around;
     }
+    .variedad-menu ul{
+        padding: 0px;
+    }
+    .variedad-menu ul li{
+        padding-right: 0;
+        padding-left: 0;
+    }
 
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
