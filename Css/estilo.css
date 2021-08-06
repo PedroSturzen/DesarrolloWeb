@@ -7806,10 +7806,9 @@ span {
 .variedad__menu ul {
   display: flex;
   justify-content: center;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 0px; }
   .variedad__menu ul li {
-    padding-right: 150px;
-    padding-left: 150px;
     padding-top: 40px;
     text-decoration: none;
     list-style: none; }
