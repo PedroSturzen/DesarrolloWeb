@@ -3148,7 +3148,8 @@ input[type="button"].btn-block {
   text-align: right; }
 
 #navbarNav {
-  justify-content: space-between; }
+  justify-content: flex-end;
+  margin-right: 40px; }
 
 .navbar {
   position: relative;
@@ -7656,7 +7657,8 @@ span {
   text-align: right; }
 
 #navbarNav {
-  justify-content: space-between; }
+  justify-content: flex-end;
+  margin-right: 40px; }
 
 /* -------------------------------------Contacto------------------------------------------- */
 .contacto {
