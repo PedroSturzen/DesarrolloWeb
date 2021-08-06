@@ -7984,7 +7984,8 @@ span {
   .variedad__menu ul li {
     width: 100%; }
   .variedad__menu {
-    height: 140px; }
+    height: 140px;
+    text-align: center; }
   .reset .contacto-form_input {
     margin: 17px; }
   .sucursal__iframe iframe {
@@ -8069,7 +8070,8 @@ span {
   .row img {
     height: 520px; }
   .variedad-menu {
-    justify-content: space-around; }
+    justify-content: space-around;
+    text-align: center; }
   .variedad-menu ul {
     padding: 0px; }
   .variedad-menu ul li {
