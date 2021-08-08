@@ -4654,6 +4654,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
+  height: 821px;
   margin-right: -100%;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out; }
@@ -8008,7 +8009,10 @@ span {
     margin-top: 0; }
   /* ----------------------------MENU---------------------------- */
   .gridConteiner {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  /*----------------------------CARROUSEL------------------------- */
+  .carousel-item {
+    height: 450px; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {
