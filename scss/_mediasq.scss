@@ -170,6 +170,22 @@
     .carousel-item{
         height: 450px;
     }
+    /*---------------------------- HEADER INDEX---------------------------- */
+    .info{
+        h1{
+            font-size: 38px !important;
+        }
+        h2{
+            font-size: 29px;
+        }
+        p{
+            font-size: 15px !important;
+        }
+    }
+    /*---------------------------- NAV---------------------------- */
+    .styckyNav{
+        height: 100px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     .nav{
