@@ -3086,6 +3086,10 @@ input[type="button"].btn-block {
   justify-content: flex-end;
   margin-right: 40px; }
 
+/* Nav Bold */
+.active {
+  font-weight: 700; }
+
 .navbar {
   position: relative;
   display: flex;
@@ -7571,6 +7575,10 @@ span {
 #navbarNav {
   justify-content: flex-end;
   margin-right: 40px; }
+
+/* Nav Bold */
+.active {
+  font-weight: 700; }
 
 /* -------------------------------------Contacto------------------------------------------- */
 .contacto {
