@@ -1,26 +1,11 @@
 $principal: #d0a772;
 $negro : black;
 /*---------------------HEADER --------------------------*/
-.conteiner{
-    width: 100%;
-    margin: 0 0;
-    overflow: hidden;
-    padding: 80px 0;
-}
 .logo{
     margin: 0;
 }
 .hero .conteiner{
     padding: 0;
-}
-
-.styckyNav{
-    font-weight: 700;
-    align-items: center;
-    position: sticky !important;
-    top: 0;
-    z-index: 100000;
-    height: 89px;
 }
 
 .hero__subtitle{
@@ -42,12 +27,4 @@ $negro : black;
 #navbarNav{
     justify-content: flex-end;
     margin-right: 40px;
-}
-/* Nav Bold */
-.active{
-    font-weight: 700;
-}
-/* Altura nav */
-.navbar{
-    height: 90px;
 }
