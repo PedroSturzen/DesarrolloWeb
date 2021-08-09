@@ -72,7 +72,6 @@
         font-size: 14px;
         width: 100%;
         text-align: left;
-
     }
     .container-footer-all h1{
         font-size: 15px;
@@ -86,7 +85,6 @@
     }
     footer h1{
         text-align: center;
-
     }
     footer .columna1{
         text-align: center;
@@ -101,7 +99,6 @@
     .carousel-item img{
         height: 133vw;
     }
-
     .about__img{
         margin: 10px;
         img{
@@ -150,10 +147,6 @@
     .horarios p{
         font-weight: 300;
     }
-    /* Logo */
-    .logo{
-        display: tabl;
-    }
     /* ----------------------------SUCURSAL---------------------------- */
     .content-line_sucursal{
         width: 290px;
@@ -166,25 +159,9 @@
     .gridConteiner{
         margin-top: 100px;
     }
-    /*----------------------------CARROUSEL------------------------- */
-    .carousel-item{
-        height: 450px;
-    }
-    /*---------------------------- HEADER INDEX---------------------------- */
-    .info{
-        h1{
-            font-size: 38px !important;
-        }
-        h2{
-            font-size: 29px;
-        }
-        p{
-            font-size: 15px !important;
-        }
-    }
-    /*---------------------------- NAV---------------------------- */
-    .styckyNav{
-        height: 100px;
+    /* img header */
+    .header img{
+        height: 150px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
@@ -397,8 +374,12 @@
     .columna1{
         width: 100%;
     }
-    .columna1,
-    .columna2,
+    .columna1{
+        margin-top: 25px;
+    }
+    .columna2{
+        margin-top: 25px;
+    }
     .columna3{
         margin-top: 25px;
     }
@@ -435,5 +416,3 @@
         justify-content: space-around;
     }
 }
-
-/* Cierre Footer */

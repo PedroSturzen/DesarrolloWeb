@@ -10,40 +10,11 @@ $negro : black;
 .logo{
     margin: 0;
 }
-.subtitle{
-    color: #000000;
-    font-size: 2.5rem;
-    margin-bottom: 35px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
-#contacto{
-    background-image: url(../Imagenes/contacto/paralaxx.jpg);
-}
-#menu{
-    background-image: url(../Imagenes/menu/header.jpg);
-}
-.hero{
-    height: 100vh;
-    background-image: url(../Imagenes/index/index1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    position: relative;
-    width: 100% !important;
-}
 
 .hero .conteiner{
     padding: 0;
 }
-.nav{
-    display: flex;
-    height: 70px;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
-}
+
 .styckyNav{
     font-weight: 700;
     align-items: center;
@@ -53,42 +24,7 @@ $negro : black;
     height: 89px;
 }
 
-.nav__items{
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-    padding: 10px 15px;
-    font-weight: inherit;
-}
-.nav .nav__itemsHome{
-    text-decoration: none;
-    padding: 10px 45px;
-    color: #fff;
-}
-.nav__itemsHome{
-    border-bottom: 2px solid #fff ;
-}
-.hero__conteiner{
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-.hero__wave{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-}
-.hero__texts{
-    width: 80%;
-    margin-bottom: 50px;
-    margin-top: 130px;
-    margin-left: 80px;
-}
-.hero__title{
-    font-size: 3rem;
-}
+
 .hero__subtitle{
     font-size: 2rem;
     font-weight: 300;
