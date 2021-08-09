@@ -2,7 +2,7 @@ $principal: #d0a772;
 $negro : black;
 /* -------------------------------------Contacto------------------------------------------- */
 .contacto{
-    margin: 0 auto;
+    margin: 30px;
     text-align: center;
     h1{
         font-family: 'Oswald', sans-serif;
@@ -11,46 +11,109 @@ $negro : black;
         margin-bottom: 25px;
         color: $negro;
         }
-    input{
-        width: 300px;
-        text-align: center;
-        height: 40px;
-        font-size: 15px;
-        border-radius: 6px;
-        border-color: $negro;
-        border-width: 1.6px;
-        } 
-    select{
-        height: 30px;
-        }
-    textarea{
-        text-align: center;
-        font-size: 16px;
-        border-radius: 6px;
-        border-width: 1.9px;
-        resize: none;
-        }
+}
+/* Formulario */
+.container-contacto{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container-contacto:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+    img{
+        height: 600px;
+        width: 500px;
+    }
+}
+
+.izquierda{
+	background-size: cover;
+	height: 100%;
+}
+
+.derecha{
+	padding: 25px 40px;
+}
+h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
 }
 
 
-.reset input{
-margin: 50px;
-display: inline-block;
-color: #fff;
-text-decoration: none;
-padding-top: 20px;
-padding-bottom: 30px;
-border-radius: 40px;
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
 }
-.reset .contacto-form_input{
-padding-bottom: 40px;
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
 }
-.contacto-form_input{
-font-weight: 500;
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
 }
-.contacto-form_input:hover{
-color: $negro;
-font-weight: 600;
+
+textarea{
+	min-height: 150px;
+    resize: none;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: black;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.field:focus{
+    border: 2px solid $principal;
+    background-color: #fff;
 }
 /* img Header */
 .header img{
@@ -58,6 +121,7 @@ font-weight: 600;
     height: 287px;
     background-size: cover;
     object-fit: cover;
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
 }
 
 /* -------------------------------------Cierre Contacto------------------------------------------- */
