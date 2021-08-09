@@ -7594,7 +7594,9 @@ span {
 /* img Header */
 .header img {
   width: 100%;
-  height: 287px; }
+  height: 287px;
+  background-size: cover;
+  object-fit: cover; }
 
 /* -------------------------------------Cierre Contacto------------------------------------------- */
 /* ---------------------Menu------------------------------------- */
@@ -7718,7 +7720,7 @@ span {
   padding-bottom: 15px;
   padding-left: 30px;
   padding-right: 30px;
-  transition-duration: 1s; }
+  transition-duration: 500ms; }
 
 .variedad__menu li a:hover {
   margin: 30px;
@@ -7745,6 +7747,12 @@ span {
   color: #000000;
   text-align: center;
   font-family: 'Oswald', sans-serif; }
+
+/* -----------------------------HEADER-------------------------------- */
+.header img {
+  width: 100%;
+  background-size: cover;
+  object-fit: cover; }
 
 /* -------------------------------------Cierre Menu------------------------------------------- */
 /* -------------------------------------Sucursal------------------------------------------- */

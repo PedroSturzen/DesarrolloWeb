@@ -129,7 +129,7 @@ $negro : $negro;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    transition-duration: 1s;
+    transition-duration: 500ms;
 }
 
 .variedad__menu li a:hover{
@@ -158,7 +158,12 @@ $negro : $negro;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
-
+/* -----------------------------HEADER-------------------------------- */
+.header img{
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
 
 
 /* -------------------------------------Cierre Menu------------------------------------------- */
