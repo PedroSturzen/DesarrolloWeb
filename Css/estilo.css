@@ -7645,11 +7645,25 @@ textarea {
 
 /* img Header */
 .header img {
-  width: 100%;
+  width: 100% !important;
   height: 287px;
   background-size: cover;
   object-fit: cover;
   box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.75); }
+
+.header {
+  position: relative; }
+
+.texto-header {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  font-size: 170px;
+  color: #fff;
+  width: 100%;
+  font-weight: 900;
+  font-family: oswald;
+  letter-spacing: 15px; }
 
 /* -------------------------------------Cierre Contacto------------------------------------------- */
 /* ---------------------Menu------------------------------------- */
@@ -7829,7 +7843,8 @@ textarea {
     font-size: 50px;
     padding-top: 20px;
     color: black;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    padding-top: 40px; }
   .sucursal .sucursal__paragraph {
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
@@ -7851,6 +7866,9 @@ textarea {
   margin: auto;
   margin-bottom: 40px;
   max-width: 100%; }
+
+.bg-black {
+  background: black; }
 
 /* -------------------------------------Cierre Sucursal------------------------------------------- */
 /*--------------------------------------------MEDIA QUERYS---------------------------------- */
