@@ -7943,13 +7943,13 @@ textarea {
   /* img header */
   .header img {
     height: 150px; }
-  /* CONTACTO */
-  .contact-box {
-    grid-template-columns: 1fr; }
-    .contact-box img {
-      height: 210px; }
+  /* ----------------------------CONTACTO---------------------------- */
+  .contact-box img {
+    height: 210px; }
   .izquierda {
     height: 200px; }
+    .izquierda img {
+      display: none; }
   .container-contacto {
     padding: 0 0; } }
 

@@ -138,7 +138,7 @@
         margin: 17px;
     }
     .sucursal__iframe iframe{
-        width: 100%;
+        width: 90%;
     }
     .presentacion__cta{
         margin-top: 10px;
@@ -163,7 +163,23 @@
     .header img{
         height: 150px;
     }
+     /* ----------------------------CONTACTO---------------------------- */
+    .contact-box{
+        img{
+            height: 210px;
+        }
+	}
+	.izquierda{
+		height: 200px;
+        img{
+            display: none;
+        }
+	}
+    .container-contacto{
+        padding: 0 0;
+    }
 }
+
 @media screen and (min-width: 576px) and (max-width: 768px){
     .nav{
         width: 100%;
