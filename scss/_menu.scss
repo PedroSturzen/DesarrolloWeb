@@ -3,7 +3,7 @@ $negro : $negro;
 /* ---------------------Menu------------------------------------- */
 
 .container__card{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     margin-top: 50px;
     perspective: 1000px;
@@ -157,6 +157,17 @@ $negro : $negro;
     color: #000000;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+}
+.title__menu3{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.title__menu3 h1{
+    font-weight: 100;
 }
 /* -----------------------------HEADER-------------------------------- */
 .header img{

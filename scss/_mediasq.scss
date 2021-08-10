@@ -115,14 +115,13 @@
         height: 350px;
     }
     .card__father{
-        margin-top: 110px;
         max-width: 100%;
     }
     .pindex__column{
         width: 100%;
     }
     .variedad__menu {
-        height: 140px;
+        height: 230px;
         text-align: center !important;
         
     }
@@ -156,12 +155,18 @@
         margin-top: 0;
     }
     /* ----------------------------MENU---------------------------- */
-    .gridConteiner{
-        margin-top: 100px;
-    }
     /* img header */
     .header img{
         height: 150px;
+    }
+    .container__card{
+        margin-top: 0px;
+    }
+    .card{
+        height: 300px;
+    }
+    .back__menu{
+        margin-top: 40px;
     }
      /* ----------------------------CONTACTO---------------------------- */
     .contact-box{

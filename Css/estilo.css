@@ -7654,7 +7654,7 @@ textarea {
 /* -------------------------------------Cierre Contacto------------------------------------------- */
 /* ---------------------Menu------------------------------------- */
 .container__card {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
   margin-top: 50px;
   perspective: 1000px;
@@ -7801,6 +7801,17 @@ textarea {
   text-align: center;
   font-family: 'Oswald', sans-serif; }
 
+.title__menu3 {
+  font-size: 40px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
+
+.title__menu3 h1 {
+  font-weight: 100; }
+
 /* -----------------------------HEADER-------------------------------- */
 .header img {
   width: 100%;
@@ -7927,12 +7938,11 @@ textarea {
     width: 100%;
     height: 350px; }
   .card__father {
-    margin-top: 110px;
     max-width: 100%; }
   .pindex__column {
     width: 100%; }
   .variedad__menu {
-    height: 140px;
+    height: 230px;
     text-align: center !important; }
   .variedad__menu ul {
     width: 100%;
@@ -7956,11 +7966,15 @@ textarea {
     margin: 22px;
     margin-top: 0; }
   /* ----------------------------MENU---------------------------- */
-  .gridConteiner {
-    margin-top: 100px; }
   /* img header */
   .header img {
     height: 150px; }
+  .container__card {
+    margin-top: 0px; }
+  .card {
+    height: 300px; }
+  .back__menu {
+    margin-top: 40px; }
   /* ----------------------------CONTACTO---------------------------- */
   .contact-box img {
     height: 210px; }
