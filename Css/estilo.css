@@ -7382,7 +7382,7 @@ span {
   font-weight: 600; }
 
 /* Buttom Sucursales */
-.presentacion a {
+.btm-sucursal a {
   text-decoration: none;
   display: inline-block;
   background-color: #000;
@@ -7393,7 +7393,7 @@ span {
   color: #fff;
   margin-bottom: 20px; }
 
-.presentacion a:hover {
+.btm-sucursal a:hover {
   background: #fff;
   color: #000;
   border: 2px solid #000; }
