@@ -2,7 +2,7 @@
 .club {
     text-align: center;
     margin: auto;
-    height: 400px;
+    height: 380px;
     width: 100%;
     color: #000000;
     font-size: 20px;
@@ -20,6 +20,7 @@
     font-size: 24px;
     margin: 0 auto;
     width: 80%;
+    margin-top: 40px;
 }
 .club__img img{
     width: 200px;
@@ -34,4 +35,7 @@
     text-align: center;
     padding: 40px;
     object-fit: cover;
+}
+.pedidoya{
+    margin-right: 120px;
 }

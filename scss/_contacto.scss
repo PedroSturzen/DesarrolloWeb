@@ -70,7 +70,7 @@ textarea{
     resize: none;
 }
 
-.btn{
+.btn-contact{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #000;
@@ -82,9 +82,10 @@ textarea{
 	transition: .3s;
 }
 
-.btn:hover{
+.btn-contact:hover{
     background-color: #fff;
     border: 2px solid #000;
+	color: #000;
 }
 
 .field:focus{

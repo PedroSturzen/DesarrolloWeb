@@ -7623,7 +7623,7 @@ textarea {
   min-height: 150px;
   resize: none; }
 
-.btn {
+.btn-contact {
   width: 100%;
   padding: 0.5rem 1rem;
   background-color: #000;
@@ -7634,9 +7634,10 @@ textarea {
   cursor: pointer;
   transition: .3s; }
 
-.btn:hover {
+.btn-contact:hover {
   background-color: #fff;
-  border: 2px solid #000; }
+  border: 2px solid #000;
+  color: #000; }
 
 .field:focus {
   border: 2px solid #d0a772;
@@ -8217,7 +8218,7 @@ textarea {
 .club {
   text-align: center;
   margin: auto;
-  height: 400px;
+  height: 380px;
   width: 100%;
   color: #000000;
   font-size: 20px; }
@@ -8234,7 +8235,8 @@ textarea {
   line-height: 1.5;
   font-size: 24px;
   margin: 0 auto;
-  width: 80%; }
+  width: 80%;
+  margin-top: 40px; }
 
 .club__img img {
   width: 200px;
@@ -8249,6 +8251,9 @@ textarea {
   text-align: center;
   padding: 40px;
   object-fit: cover; }
+
+.pedidoya {
+  margin-right: 120px; }
 
 .body404 {
   background-image: url(https://dinahosting.com/blog/cont/uploads/2021/03/error-404.jpg); }
