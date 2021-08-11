@@ -1,7 +1,73 @@
 $principal: #d0a772;
 $negro : $negro;
-/* ---------------------Menu------------------------------------- */
 
+/* -----------------------------HEADER-------------------------------- */
+.header img{
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+/* --------------Variedad menu -------------- */
+/* Title */
+.title__menu2{
+    font-size: 50px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.content-line{
+    height: 2px;
+    width: 300px;
+    background:#000;
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+/* Variedad */
+.variedad__menu{
+    height: 90px;
+    text-align: center;
+}
+.variedad__menu ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0px;
+        li{
+            padding-top: 40px;
+            text-decoration: none;
+            list-style:none;
+            a{
+                color: $negro;
+                font-size: 20px;
+                font-weight: 600;
+                background: #EAE5E0;
+            }
+        }
+}
+.variedad__menu li a{
+    margin: 30px;
+    background-color: #F0E4D5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-duration: 500ms;
+}
+
+.variedad__menu li a:hover{
+    margin: 30px;
+    background-color: #D0A772;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+/* ----------------------------CARDS---------------------------- */
 .container__card{
     max-width: 1400px;
     margin: auto;
@@ -12,12 +78,10 @@ $negro : $negro;
     flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
 }
-
 .card__father{
     margin: 50px;
     perspective: 1000px;
 }
-
 .card__father:hover .card{
     transform: rotateY(180deg);
 }
@@ -70,14 +134,14 @@ $negro : $negro;
     padding: 40px;
     text-align: center;
     transform: translateZ(60px);
-}
-.body__card_back p{
-    margin-top: 30px;
-    font-size: 18px;
-}
-.body__card_back h1{
-    font-size: 31px;
-    font-weight: 700;
+    h1{
+        font-size: 31px;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 30px;
+        font-size: 18px;
+    }
 }
 .back__menu{
     width: 100%;
@@ -101,63 +165,6 @@ $negro : $negro;
         font-family: 'Oswald', sans-serif;
 }
 
-.variedad__menu{
-    height: 90px;
-    text-align: center;
-}
-.variedad__menu ul{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0px;
-        li{
-            padding-top: 40px;
-            text-decoration: none;
-            list-style:none;
-            a{
-                color: $negro;
-                font-size: 20px;
-                font-weight: 600;
-                background: #EAE5E0;
-            }
-        }
-}
-.variedad__menu li a{
-    margin: 30px;
-    background-color: #F0E4D5;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition-duration: 500ms;
-}
-
-.variedad__menu li a:hover{
-    margin: 30px;
-    background-color: #D0A772;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-decoration: none;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
-}
-.content-line{
-    height: 2px;
-    width: 300px;
-    background: black;
-    margin: auto;
-    margin-bottom: 40px;
-    max-width: 100%;
-}
-.title__menu2{
-    font-size: 50px;
-    padding-top: 20px;
-    margin-bottom: 15px;
-    color: #000000;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
 .title__menu3{
     font-size: 40px;
     padding-top: 20px;
@@ -169,12 +176,3 @@ $negro : $negro;
 .title__menu3 h1{
     font-weight: 100;
 }
-/* -----------------------------HEADER-------------------------------- */
-.header img{
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
-}
-
-
-/* -------------------------------------Cierre Menu------------------------------------------- */

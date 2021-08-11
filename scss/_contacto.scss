@@ -1,6 +1,29 @@
 $principal: #d0a772;
 $negro : black;
-/* -------------------------------------Contacto------------------------------------------- */
+
+/* ------------------------------Header------------------------------ */
+.header{
+	position: relative;
+}
+.header img{
+	width: 100% !important;
+	height: 287px;
+	background-size: cover;
+	object-fit: cover;
+	box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+}
+.texto-header{
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	font-size: 170px;
+	color: #fff;
+	width: 100%;
+	font-weight: 900;
+	font-family: oswald;
+	letter-spacing: 15px;
+}
+/*------------------------------Contenido------------------------------ */
 .contacto{
     margin: 30px;
     text-align: center;
@@ -35,12 +58,10 @@ $negro : black;
         width: 500px;
     }
 }
-
 .izquierda{
 	background-size: cover;
 	height: 100%;
 }
-
 .derecha{
 	padding: 25px 40px;
 }
@@ -49,7 +70,6 @@ h2{
     padding: 0 0 10px;
     margin-bottom: 10px;
 }
-
 .field{
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
@@ -60,16 +80,13 @@ h2{
 	margin-bottom: 22px;
 	transition: .3s;
 }
-
 .field:hover{
 	background-color: rgba(0, 0, 0, 0.1);
 }
-
 textarea{
 	min-height: 150px;
     resize: none;
 }
-
 .btn-contact{
 	width: 100%;
 	padding: 0.5rem 1rem;
@@ -81,38 +98,15 @@ textarea{
 	cursor: pointer;
 	transition: .3s;
 }
-
 .btn-contact:hover{
     background-color: #fff;
     border: 2px solid #000;
 	color: #000;
 }
-
 .field:focus{
     border: 2px solid $principal;
     background-color: #fff;
 }
-/* img Header */
-.header img{
-    width: 100% !important;
-    height: 287px;
-    background-size: cover;
-    object-fit: cover;
-    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
-}
-.header{
-	position: relative;
-}
-.texto-header{
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	font-size: 170px;
-	color: #fff;
-	width: 100%;
-	font-weight: 900;
-	font-family: oswald;
-	letter-spacing: 15px;
-}
+
 
 /* -------------------------------------Cierre Contacto------------------------------------------- */

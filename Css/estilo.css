@@ -7269,69 +7269,6 @@ a.text-principal:hover, a.text-principal:focus {
 span {
   font-weight: 700 !important; }
 
-/* Quienes Somos y happy hour */
-.presentacion {
-  padding: 0;
-  text-align: center;
-  margin-top: 60px; }
-
-.presentacion__foto {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 50px;
-  object-fit: cover; }
-
-.presentacion__texto {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 1.5rem; }
-
-.presentacion__cta {
-  display: inline-block;
-  margin-top: 30px;
-  color: #fff;
-  text-decoration: none;
-  padding: 30px 40px;
-  border-radius: 40px;
-  margin-bottom: 40px; }
-
-.presentacion__cta:hover {
-  animation: pulse;
-  animation-duration: 4s;
-  color: #000;
-  font-weight: 700; }
-
-.about {
-  min-height: 400px;
-  display: grid;
-  row-gap: 80px;
-  justify-content: center;
-  align-items: center; }
-
-.about__img {
-  text-align: center;
-  margin-bottom: 40px; }
-
-.about__picture {
-  max-width: 80%; }
-
-.about__paragraph {
-  margin-bottom: 10px;
-  line-height: 1.5;
-  font-size: 24px; }
-
-.about__subtitle {
-  font-weight: 700;
-  font-style: oblique;
-  font-size: 36px;
-  padding-bottom: 20px; }
-
-.about__texts {
-  text-align: center;
-  margin-left: 173px;
-  margin-right: 173px; }
-
 /*-------------------------------------------------- Header --------------------------------------------------*/
 #hero {
   height: 91vh;
@@ -7376,11 +7313,40 @@ span {
   animation: pulse;
   animation-duration: 2s; }
 
-/* Contacto arriba footer */
-.overflow-hidden h4 {
-  font-weight: 600; }
+/* ---------------------------------------Quienes Somos y happy hour-------------------------------------- */
+.presentacion {
+  padding: 0;
+  text-align: center;
+  margin-top: 60px; }
 
-/* Buttom Sucursales */
+.presentacion__foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  object-fit: cover; }
+
+.presentacion__texto {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem; }
+
+.presentacion__cta {
+  display: inline-block;
+  margin-top: 30px;
+  color: #fff;
+  text-decoration: none;
+  padding: 30px 40px;
+  border-radius: 40px;
+  margin-bottom: 40px; }
+
+.presentacion__cta:hover {
+  animation: pulse;
+  animation-duration: 4s;
+  color: #000;
+  font-weight: 700; }
+
+/* ------------Buttom Sucursales------------ */
 .btm-sucursal a {
   text-decoration: none;
   display: inline-block;
@@ -7396,6 +7362,40 @@ span {
   background: #fff;
   color: #000;
   border: 2px solid #000; }
+
+.about {
+  min-height: 400px;
+  display: grid;
+  row-gap: 80px;
+  justify-content: center;
+  align-items: center; }
+
+.about__img {
+  text-align: center;
+  margin-bottom: 40px; }
+
+.about__picture {
+  max-width: 80%; }
+
+.about__paragraph {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 24px; }
+
+.about__subtitle {
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 36px;
+  padding-bottom: 20px; }
+
+.about__texts {
+  text-align: center;
+  margin-left: 173px;
+  margin-right: 173px; }
+
+/* --------------------------------------Contacto arriba footer-------------------------------------- */
+.overflow-hidden h4 {
+  font-weight: 600; }
 
 /* -------------------Barra Arriba Footer--------------------------------- */
 .contact-imfo-box {
@@ -7562,7 +7562,29 @@ span {
   justify-content: flex-end;
   margin-right: 40px; }
 
-/* -------------------------------------Contacto------------------------------------------- */
+/* ------------------------------Header------------------------------ */
+.header {
+  position: relative; }
+
+.header img {
+  width: 100% !important;
+  height: 287px;
+  background-size: cover;
+  object-fit: cover;
+  box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.75); }
+
+.texto-header {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  font-size: 170px;
+  color: #fff;
+  width: 100%;
+  font-weight: 900;
+  font-family: oswald;
+  letter-spacing: 15px; }
+
+/*------------------------------Contenido------------------------------ */
 .contacto {
   margin: 30px;
   text-align: center; }
@@ -7643,30 +7665,71 @@ textarea {
   border: 2px solid #d0a772;
   background-color: #fff; }
 
-/* img Header */
-.header img {
-  width: 100% !important;
-  height: 287px;
-  background-size: cover;
-  object-fit: cover;
-  box-shadow: 1px 9px 15px 0px rgba(0, 0, 0, 0.75); }
-
-.header {
-  position: relative; }
-
-.texto-header {
-  position: absolute;
-  top: 10px;
-  text-align: center;
-  font-size: 170px;
-  color: #fff;
-  width: 100%;
-  font-weight: 900;
-  font-family: oswald;
-  letter-spacing: 15px; }
-
 /* -------------------------------------Cierre Contacto------------------------------------------- */
-/* ---------------------Menu------------------------------------- */
+/* -----------------------------HEADER-------------------------------- */
+.header img {
+  width: 100%;
+  background-size: cover;
+  object-fit: cover; }
+
+/* --------------Variedad menu -------------- */
+/* Title */
+.title__menu2 {
+  font-size: 50px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
+
+.content-line {
+  height: 2px;
+  width: 300px;
+  background: #000;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 100%; }
+
+/* Variedad */
+.variedad__menu {
+  height: 90px;
+  text-align: center; }
+
+.variedad__menu ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0px; }
+  .variedad__menu ul li {
+    padding-top: 40px;
+    text-decoration: none;
+    list-style: none; }
+    .variedad__menu ul li a {
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+      background: #EAE5E0; }
+
+.variedad__menu li a {
+  margin: 30px;
+  background-color: #F0E4D5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition-duration: 500ms; }
+
+.variedad__menu li a:hover {
+  margin: 30px;
+  background-color: #D0A772;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
+
+/* ----------------------------CARDS---------------------------- */
 .container__card {
   max-width: 1400px;
   margin: auto;
@@ -7731,14 +7794,12 @@ textarea {
   padding: 40px;
   text-align: center;
   transform: translateZ(60px); }
-
-.body__card_back p {
-  margin-top: 30px;
-  font-size: 18px; }
-
-.body__card_back h1 {
-  font-size: 31px;
-  font-weight: 700; }
+  .body__card_back h1 {
+    font-size: 31px;
+    font-weight: 700; }
+  .body__card_back p {
+    margin-top: 30px;
+    font-size: 18px; }
 
 .back__menu {
   width: 100%;
@@ -7761,60 +7822,6 @@ textarea {
   text-align: center;
   font-family: 'Oswald', sans-serif; }
 
-.variedad__menu {
-  height: 90px;
-  text-align: center; }
-
-.variedad__menu ul {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  padding: 0px; }
-  .variedad__menu ul li {
-    padding-top: 40px;
-    text-decoration: none;
-    list-style: none; }
-    .variedad__menu ul li a {
-      color: black;
-      font-size: 20px;
-      font-weight: 600;
-      background: #EAE5E0; }
-
-.variedad__menu li a {
-  margin: 30px;
-  background-color: #F0E4D5;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  transition-duration: 500ms; }
-
-.variedad__menu li a:hover {
-  margin: 30px;
-  background-color: #D0A772;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
-
-.content-line {
-  height: 2px;
-  width: 300px;
-  background: black;
-  margin: auto;
-  margin-bottom: 40px;
-  max-width: 100%; }
-
-.title__menu2 {
-  font-size: 50px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-  color: #000000;
-  text-align: center;
-  font-family: 'Oswald', sans-serif; }
-
 .title__menu3 {
   font-size: 40px;
   padding-top: 20px;
@@ -7826,14 +7833,16 @@ textarea {
 .title__menu3 h1 {
   font-weight: 100; }
 
-/* -----------------------------HEADER-------------------------------- */
-.header img {
-  width: 100%;
-  background-size: cover;
-  object-fit: cover; }
-
-/* -------------------------------------Cierre Menu------------------------------------------- */
 /* -------------------------------------Sucursal------------------------------------------- */
+.content-line_sucursal {
+  height: 2px;
+  width: 510px;
+  background: black;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 100%; }
+
+/* --------------Contenido-------------- */
 .sucursal {
   text-align: center;
   display: block;
@@ -7858,14 +7867,6 @@ textarea {
 
 .bodyMenu {
   background: #EBE3D1; }
-
-.content-line_sucursal {
-  height: 2px;
-  width: 510px;
-  background: black;
-  margin: auto;
-  margin-bottom: 40px;
-  max-width: 100%; }
 
 .bg-black {
   background: black; }

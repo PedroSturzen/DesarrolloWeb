@@ -5,72 +5,6 @@ $negro : black;
 span{
     font-weight: 700 !important;
 }
-/* Quienes Somos y happy hour */
-.presentacion{
-    padding: 0;
-    text-align: center;
-    margin-top: 60px;
-}
-.presentacion__foto{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 50px;
-    object-fit: cover;
-}
-.presentacion__texto{
-    width: 80%;
-    margin: 0 auto;
-    font-size: 1.5rem;
-}
-.presentacion__cta{
-    display: inline-block;
-    margin-top: 30px;
-    color: #fff;
-    text-decoration: none;
-    padding: 30px 40px;
-    border-radius: 40px;
-    margin-bottom: 40px;
-}
-.presentacion__cta:hover{
-    animation: pulse;
-    animation-duration: 4s;
-    color: #000;
-    font-weight: 700;
-}
-
-.about{
-    min-height: 400px;
-    display: grid;
-    row-gap: 80px;
-    justify-content: center;
-    align-items: center;
-}
-.about__img{
-    text-align: center;
-    margin-bottom: 40px;
-}
-.about__picture{
-    max-width: 80%;
-}
-.about__paragraph{
-    margin-bottom: 10px;
-    line-height: 1.5;
-    font-size: 24px;
-
-}
-.about__subtitle{
-    font-weight: 700;
-    font-style: oblique;
-    font-size: 36px;
-    padding-bottom: 20px;
-}
-.about__texts{
-    text-align: center;
-    margin-left: 173px;
-    margin-right: 173px;
-}
-
 /*-------------------------------------------------- Header --------------------------------------------------*/
 #hero {
     height: 91vh;
@@ -118,11 +52,40 @@ span{
     animation: pulse;
     animation-duration: 2s;
 }
-/* Contacto arriba footer */
-.overflow-hidden h4{
-    font-weight: 600;
+/* ---------------------------------------Quienes Somos y happy hour-------------------------------------- */
+.presentacion{
+    padding: 0;
+    text-align: center;
+    margin-top: 60px;
 }
-/* Buttom Sucursales */
+.presentacion__foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.presentacion__texto{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.presentacion__cta{
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.presentacion__cta:hover{
+    animation: pulse;
+    animation-duration: 4s;
+    color: #000;
+    font-weight: 700;
+}
+/* ------------Buttom Sucursales------------ */
 .btm-sucursal a{
         text-decoration: none;
         display: inline-block;
@@ -138,4 +101,41 @@ span{
     background: #fff;
     color: #000;
     border: 2px solid #000;
+}
+
+.about{
+    min-height: 400px;
+    display: grid;
+    row-gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.about__img{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about__picture{
+    max-width: 80%;
+}
+.about__paragraph{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 24px;
+
+}
+.about__subtitle{
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.about__texts{
+    text-align: center;
+    margin-left: 173px;
+    margin-right: 173px;
+}
+
+/* --------------------------------------Contacto arriba footer-------------------------------------- */
+.overflow-hidden h4{
+    font-weight: 600;
 }
