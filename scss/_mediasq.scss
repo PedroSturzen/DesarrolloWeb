@@ -283,7 +283,27 @@
         padding-right: 0;
         padding-left: 0;
     }
-
+    /* Menu */
+    .texto-header{
+        font-size: 120px;
+        letter-spacing: 0px;
+        margin-top: 20px;
+    }
+    /* Contacto */
+    .contact-box{
+        img{
+            height: 210px;
+        }
+	}
+	.izquierda{
+		height: 200px;
+        img{
+            display: none;
+        }
+	}
+    .container-contacto{
+        padding: 0 0;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .nav{
@@ -389,6 +409,21 @@
     .variedad-menu{
         justify-content: space-around;
     }
+    /* Contacto */
+    .contact-box{
+        img{
+            height: 210px;
+        }
+	}
+	.izquierda{
+		height: 200px;
+        img{
+            display: none;
+        }
+	}
+    .container-contacto{
+        margin-right: 50px;
+    }
 }
 @media screen and (min-width: 992px) and (min-width: 1024px){
     .container-body{
@@ -439,5 +474,9 @@
     }
     .navbar-nav{
         justify-content: space-around;
+    }
+    /* Index */
+    .about .conteiner .happyHour{
+        display: block !important;
     }
 }
