@@ -7305,7 +7305,6 @@ span {
 .about {
   min-height: 400px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   row-gap: 80px;
   justify-content: center;
   align-items: center; }
@@ -8212,9 +8211,7 @@ textarea {
     height: 350px; }
   .navbar-nav {
     justify-content: space-around; }
-  /* Index */
-  .about .conteiner .happyHour {
-    display: block !important; } }
+  /* Index */ }
 
 /* -------------------------------------Fan Club------------------------------------------- */
 .club {
