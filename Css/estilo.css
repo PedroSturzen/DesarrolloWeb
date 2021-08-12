@@ -7356,7 +7356,8 @@ span {
   padding: 0.5em 1.2em;
   margin-top: 2rem;
   color: #fff;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-bottom: 65px; }
 
 .btm-sucursal a:hover {
   background: #fff;
@@ -7372,7 +7373,7 @@ span {
 
 .about__img {
   text-align: center;
-  margin-bottom: 40px; }
+  margin-bottom: 70px; }
 
 .about__picture {
   max-width: 80%; }
@@ -7903,7 +7904,8 @@ textarea {
   .about {
     grid-template-columns: 1fr;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    display: block; }
   .about__texts {
     font-size: 17px;
     margin-left: 10px;
@@ -7950,7 +7952,7 @@ textarea {
     .about__img img {
       max-width: 100%;
       height: 190px;
-      margin-bottom: 0px !important; }
+      margin-bottom: 50px !important; }
   .pindex {
     margin-bottom: 0; }
   .pindex__img {
@@ -7998,12 +8000,12 @@ textarea {
   .back__menu {
     margin-top: 40px; }
   /* ----------------------------CONTACTO---------------------------- */
-  .contact-box img {
-    height: 210px; }
-  .izquierda {
-    height: 200px; }
-    .izquierda img {
-      display: none; }
+  .contact-box {
+    display: block; }
+    .contact-box img {
+      height: 210px; }
+  .izquierda img {
+    display: none; }
   .container-contacto {
     padding: 0 0; } }
 
@@ -8175,7 +8177,17 @@ textarea {
     .izquierda img {
       display: none; }
   .container-contacto {
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  /* --------------------MENU-------------------- */
+  .container__card {
+    max-width: 80%; }
+  .card__father {
+    margin: 23px; }
+  .card {
+    width: 260px;
+    height: 330px; }
+  .body__card_front h1 {
+    font-size: 30px; } }
 
 @media screen and (min-width: 992px) and (min-width: 1024px) {
   .container-body {
