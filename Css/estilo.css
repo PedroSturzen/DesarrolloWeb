@@ -7887,6 +7887,9 @@ textarea {
     border-bottom: 1px solid #fff; }
   .nav__items {
     font-weight: 400; }
+  #hero {
+    padding-top: 6rem;
+    height: 700px; }
   .hero__texts {
     width: 100%;
     margin-bottom: 80px; }
